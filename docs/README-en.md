@@ -25,7 +25,7 @@ git clone https://github.com/spawner1145/fake-news-detector
 ### Install requirements
 
 ```bash
-pip install pandas numpy scikit-learn joblib
+pip install -r requirements.txt
 ```
 
 Using a  `venv` (virtual environment) is recommended.

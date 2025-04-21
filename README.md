@@ -134,14 +134,27 @@ fake-news-detector/
 
 ## 安装与设置
 
-1. **克隆/下载项目**: `git clone https://github.com/spawner1145/fake-news-detector` 或下载 ZIP
-2. **安装依赖**: `pip install pandas numpy scikit-learn joblib` (推荐在虚拟环境中)
-3. **准备数据**:
+### 克隆项目
+
+ ```bash
+ git clone https://github.com/spawner1145/fake-news-detector
+ ```
+
+### 安装依赖
+
+```bash
+pip install -r requirements.txt
+```
+
+(推荐在虚拟环境中)
+
+### 准备数据
 
    * 创建 `data/` 目录。
    * 将 `Fake.csv`, `True.csv` (及可选的 `New_*.csv`) 放入 `data/`。
    * 确保 CSV 文件包含 `text` 列，使用 UTF-8 编码。
-4. 数据集csv内部示例(总之就是title,text,subject,date这四列)(实际上只需要text这一列，别的三个其实可以不用):
+
+### 数据集csv内部示例(总之就是title,text,subject,date这四列)(实际上只需要text这一列，别的三个其实可以不用):
 
    ```
 
